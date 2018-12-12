@@ -1,0 +1,13 @@
+Package: newt-tcl
+Source: newt
+Version: 0.52.20-8
+Architecture: amd64
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 121
+Depends: libnewt0.52 (= 0.52.20-8), tcl8.6, libc6 (>= 2.14), libpopt0 (>= 1.14), libslang2 (>= 2.2.4), libtcl8.6 (>= 8.6.0)
+Section: interpreters
+Priority: optional
+Homepage: https://pagure.io/newt
+Description: NEWT module for Tcl
+ This module allows you to build a text UI for your Tcl scripts
+ using newt.

@@ -1,0 +1,13 @@
+Package: python-newt-dbgsym
+Source: newt
+Version: 0.52.20-8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 38
+Depends: python-newt (= 0.52.20-8)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for python-newt
+Build-Ids: 9664038bcdd2b947301056c009dc13237052b8f0

@@ -1,0 +1,13 @@
+Package: libnewt0.52-dbgsym
+Source: newt
+Version: 0.52.20-8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 134
+Depends: libnewt0.52 (= 0.52.20-8)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libnewt0.52
+Build-Ids: c37bd5336b98c76658650299c7d9335084360c63

@@ -1,0 +1,14 @@
+libnewt-dev_0.52.20-8_amd64.deb libdevel optional
+libnewt-pic_0.52.20-8_amd64.deb libdevel optional
+libnewt0.52-dbgsym_0.52.20-8_amd64.deb debug optional automatic=yes
+libnewt0.52-udeb_0.52.20-8_amd64.udeb debian-installer optional
+libnewt0.52_0.52.20-8_amd64.deb libs optional
+newt-tcl-dbgsym_0.52.20-8_amd64.deb debug optional automatic=yes
+newt-tcl_0.52.20-8_amd64.deb interpreters optional
+newt_0.52.20-8_amd64.buildinfo devel optional
+python-newt-dbgsym_0.52.20-8_amd64.deb debug optional automatic=yes
+python-newt_0.52.20-8_amd64.deb python optional
+python3-newt-dbgsym_0.52.20-8_amd64.deb debug optional automatic=yes
+python3-newt_0.52.20-8_amd64.deb python optional
+whiptail-dbgsym_0.52.20-8_amd64.deb debug optional automatic=yes
+whiptail_0.52.20-8_amd64.deb utils optional

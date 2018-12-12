@@ -1,0 +1,70 @@
+Format: 1.8
+Date: Thu, 27 Sep 2018 12:36:41 +0100
+Source: newt
+Binary: libnewt-dev libnewt-pic libnewt0.52-udeb newt-tcl python-newt python3-newt libnewt0.52 whiptail
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 0.52.20-8
+Distribution: unstable
+Urgency: medium
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Changed-By: Alastair McKinstry <mckinstry@debian.org>
+Description:
+ libnewt-dev - Developer's toolkit for newt windowing library
+ libnewt-pic - Not Erik's Windowing Toolkit, shared library subset kit
+ libnewt0.52 - Not Erik's Windowing Toolkit - text mode windowing with slang
+ libnewt0.52-udeb - Not Erik's Windowing Toolkit for Debian Installer (udeb)
+ newt-tcl   - NEWT module for Tcl
+ python-newt - NEWT module for Python
+ python3-newt - NEWT module for Python3
+ whiptail   - Displays user-friendly dialog boxes from shell scripts
+Closes: 909030
+Changes:
+ newt (0.52.20-8) unstable; urgency=medium
+ .
+   * Don't ship /etc/newt/palette.original. Closes: #909030
+Checksums-Sha1:
+ 8e038f5c044c47b9c130edda15f48d8d090fa416 543128 libnewt-dev_0.52.20-8_amd64.deb
+ 40bf1082d84045b561cb0aa845f109de7ef10973 25248 libnewt-pic_0.52.20-8_amd64.deb
+ a8209897be1aabff5840768455c6830402fc83d1 109520 libnewt0.52-dbgsym_0.52.20-8_amd64.deb
+ cf369c62c321cc3a45d2af2e4d7475526983f5ff 86192 libnewt0.52-udeb_0.52.20-8_amd64.udeb
+ a5cde0b7918af067d7f2c9316468162e4b7832fd 120924 libnewt0.52_0.52.20-8_amd64.deb
+ 17464f323b6e03f62cb9daf38518b2251d42d0c2 12412 newt-tcl-dbgsym_0.52.20-8_amd64.deb
+ 22fe7a562d7cf10d1ad0a74cc911a14630a3d829 47440 newt-tcl_0.52.20-8_amd64.deb
+ cbb4dc8a3d2eabacc3a4022eb0fc52448cebc315 10291 newt_0.52.20-8_amd64.buildinfo
+ aad1afeb37e43d18becb41bbe020da3f10381cf9 18860 python-newt-dbgsym_0.52.20-8_amd64.deb
+ aef4169f3cdb91118674772e76ad7cc85d50aad9 42284 python-newt_0.52.20-8_amd64.deb
+ 3595ca53b2dd39e68fd5a35b9e953741a4d90e96 20120 python3-newt-dbgsym_0.52.20-8_amd64.deb
+ 7d54d9a8da37877c8c9bf88b1414542544f2f8db 41668 python3-newt_0.52.20-8_amd64.deb
+ 0d62487cb8326d6e992001b85e2c81606f9c50d3 14940 whiptail-dbgsym_0.52.20-8_amd64.deb
+ 899f8600453315b519607c3fda1a7797de30cd72 50056 whiptail_0.52.20-8_amd64.deb
+Checksums-Sha256:
+ 9c1eaab822936eb9efec40321e6893e15c1e6b9619f98cd15de4a2bb5097577a 543128 libnewt-dev_0.52.20-8_amd64.deb
+ 457af1e9005e74da061795140329c800b4500193546ab82389c2ae19fab1a09b 25248 libnewt-pic_0.52.20-8_amd64.deb
+ 6be0cddf728389b3733aa551b77a49af5ed6945cd344c33d99840a474cfb5d29 109520 libnewt0.52-dbgsym_0.52.20-8_amd64.deb
+ b4c33c4ae46adfffb307ddc9a064030a5a2528ad6ed1b7739f5a75f02aead1b3 86192 libnewt0.52-udeb_0.52.20-8_amd64.udeb
+ 35183a653947042615ce208a364eefccae78f26ebc75e8f2c311baa0fb87649e 120924 libnewt0.52_0.52.20-8_amd64.deb
+ a5d75d3e14d89ebf4e6c71467db5dc0dc564127a02ba8996c3a7279f5fdf34a6 12412 newt-tcl-dbgsym_0.52.20-8_amd64.deb
+ e26a1d3056afc91172f8403f1292d589ba5ddc28a0d3abe33351e624dda96971 47440 newt-tcl_0.52.20-8_amd64.deb
+ 5295d0b58ac57008ab6f283b931a988a96ff2bc0f258b9b5f5d0a2b9b93aca94 10291 newt_0.52.20-8_amd64.buildinfo
+ 87b4c961baa99e7cb89c61cbbac60952b9bef22616a6a87887c01b30cbe72774 18860 python-newt-dbgsym_0.52.20-8_amd64.deb
+ b09a57fadd77e520615e4b0b1a6776a9a03123f2b0f398b60c2f0776aab7273d 42284 python-newt_0.52.20-8_amd64.deb
+ 4bed9795679e5a31ada7921566d3e1edd3c482db6c0fb20df6ca6469be0d4a3e 20120 python3-newt-dbgsym_0.52.20-8_amd64.deb
+ f4b774a4ee0a7b04516327b904b3b0c3dca5fc2376e3a32b81a9b2360904ec5e 41668 python3-newt_0.52.20-8_amd64.deb
+ 3d97c1ef03e1cf9aad8e4e8ee3770b4e6574b2966ff6de016c55cb5ac9e730f1 14940 whiptail-dbgsym_0.52.20-8_amd64.deb
+ 157d3ed2d13911fec52f99fa62843a5bd30a44cfbeb1166f199fa0900fbe1670 50056 whiptail_0.52.20-8_amd64.deb
+Files:
+ 01b2717e2daf1fc3446a4ff89d008f4e 543128 libdevel optional libnewt-dev_0.52.20-8_amd64.deb
+ 387c5afd3917c6500af6833af655d6ab 25248 libdevel optional libnewt-pic_0.52.20-8_amd64.deb
+ a2592383bd7935e403bbb3df909205c5 109520 debug optional libnewt0.52-dbgsym_0.52.20-8_amd64.deb
+ cecd08b835f315b00b255e0b72afef24 86192 debian-installer optional libnewt0.52-udeb_0.52.20-8_amd64.udeb
+ a73554fa6303526c54cc85738f4bb66f 120924 libs optional libnewt0.52_0.52.20-8_amd64.deb
+ ee8116957bd4ce557759a1ddc8eef433 12412 debug optional newt-tcl-dbgsym_0.52.20-8_amd64.deb
+ 43f57139dd6ed55af5aa9a6d9fa30d98 47440 interpreters optional newt-tcl_0.52.20-8_amd64.deb
+ 1fb29350a6db4da02a15542960bff17e 10291 devel optional newt_0.52.20-8_amd64.buildinfo
+ dadd218b55197329350c610d5f536af6 18860 debug optional python-newt-dbgsym_0.52.20-8_amd64.deb
+ 3bb8ad38b11ea1f36c334cc069da89f0 42284 python optional python-newt_0.52.20-8_amd64.deb
+ 328a086752723da88d555acf1feec495 20120 debug optional python3-newt-dbgsym_0.52.20-8_amd64.deb
+ 27940c853b5b5cc6e0446c3a8f583bd5 41668 python optional python3-newt_0.52.20-8_amd64.deb
+ 3102f2e1fee0c26fd3494539e22de79d 14940 debug optional whiptail-dbgsym_0.52.20-8_amd64.deb
+ da2660602d0ad073299aa412ecfbadc4 50056 utils optional whiptail_0.52.20-8_amd64.deb

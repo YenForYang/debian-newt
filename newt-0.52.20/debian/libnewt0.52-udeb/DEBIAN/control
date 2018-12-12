@@ -1,0 +1,14 @@
+Package: libnewt0.52-udeb
+Source: newt
+Version: 0.52.20-8
+Architecture: amd64
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 307
+Depends: libc6-udeb (>= 2.27), libslang2-udeb (>= 2.3.2)
+Section: debian-installer
+Priority: optional
+Description: Not Erik's Windowing Toolkit for Debian Installer
+ This is a udeb, or a microdeb, of the Not Erik's Windowing Toolkit. As such
+ it is the installer counterpart of libnewt0.52.
+ You only need this package to support applications needing Newt during
+ the Debian installation process time and probably don't need to select it.
